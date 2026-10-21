@@ -191,17 +191,23 @@ so much!"), posts about the subreddit itself ("we should cross-promote with
 other subs"), arguments about what the word "Afrobeats" covers, and two posts
 containing a personal phone number or email address.
 
-**How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
-Say so plainly — the disclosure is required, not penalised. -->
+**How I labelled them:** I labelled 20 posts cold first, with only my
+definitions and no AI suggestions (marked `cold`). The other 200 were
+pre-labelled by Claude using my definitions and decision rules. I then read
+every one of them in batches of 25 and confirmed or corrected each label
+(marked `pre-labelled, checked`). Before I checked them, Claude also re-read
+its own pre-labels against my rules, changed two and removed one post that
+fit no label.
 
 **Counts per label:**
 
 | Label | Count | Share |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-| **Total** |  | 100% |
+| `promo` | 118 | 53.6% |
+| `rec` | 54 | 24.5% |
+| `hype` | 25 | 11.4% |
+| `review` | 23 | 10.5% |
+| **Total** | 220 | 100% |
 
 **Three hard cases**
 
@@ -209,25 +215,35 @@ Say so plainly — the disclosure is required, not penalised. -->
      been, and what you chose. These are worth more than the easy 190. -->
 
 **1.**
-> *The post:*
+> *The post:* "I see Gratitude topping this chart soon"
 >
-> *Could have been:*
+> *Could have been:* `hype` or `rec`
 >
-> *I chose, because:*
+> *I chose, because:* `rec`. It's a prediction, which sounds like `hype`, but
+> it's about a song (Asake's "Gratitude"), not the artist, and it gives no
+> reason. My `rec` / `hype` rule puts it in `rec`.
 
 **2.**
-> *The post:*
+> *The post:* "Just watched this lool and was gonna maybe post it here 🤣🤣🤣.
+> Love how honest and profound this song/performance feels. 🙌🙌🙌"
 >
-> *Could have been:*
+> *Could have been:* `review` or `rec`
 >
-> *I chose, because:*
+> *I chose, because:* `review`. "Honest and profound" is weaker than naming a
+> sound, but it describes how the song itself comes across when you hear it,
+> not the artist and not just the title.
 
 **3.**
-> *The post:*
+> *The post:* "This is a sign of the times. Yaybo Baba. A true legend and
+> powerfully important piece of the growth and progression of the culture of
+> our music. Cups in the air to Our Uncle Fela. Here we played with his
+> drummer friend and brother from another mother Tony Allen…"
 >
-> *Could have been:*
+> *Could have been:* `hype` or `promo`
 >
-> *I chose, because:*
+> *I chose, because:* `hype`. Most of the post honours Fela as an artist. The
+> end mentions the poster's own band, but it doesn't link anything or ask
+> people to listen, so promotion isn't the main point.
 
 ---
 
