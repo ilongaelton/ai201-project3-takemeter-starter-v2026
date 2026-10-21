@@ -42,6 +42,25 @@
 <!-- Your community, and what your classifier sorts posts into. Three or four
      sentences. -->
 
+Posts come from r/Afrobeats, a public Reddit community for Nigerian and wider
+African pop music. I narrowed it to posts about Nigeria's "Big 3" — Burna Boy,
+Davido and Wizkid. Most of what people write there is song recommendations and
+quick reactions, with the occasional full album review.
+
+**Candidate distinctions (Milestone 1, from reading the comments):**
+
+1. **Some posts say *why*, most just name a song.** "Burna boy Alone" or
+   "Ease your mind by wizkid" versus "Burna Boy's 'Ye' for me … the horn riff
+   alone could lift a whole mood."
+2. **Some talk about the sound, others about the artist.** Posts about the
+   music mention specific things you can hear (a horn riff, a choral effect,
+   "minimalistic", "major Hip hop influences"). Posts about the artist praise
+   the person or their status: "You are the best thing that has happened to
+   Africa … after Bob Marley and FELA", "2021 will be big for Davido 🔥🔥".
+3. **Some posts criticise, most only praise.** "My only criticism is that a lot
+   of the songs end up sounding pretty similar … No Fit Vex" and "No shade to
+   this song, but I think there are soooo many better songs" versus "Still my
+   favorite WizKid song" and "So proud of Burna boy".
 
 
 ---
