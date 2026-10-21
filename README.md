@@ -251,15 +251,33 @@ fit no label.
 
 <!-- Your starting model, your settings, and anything you changed and why. -->
 
-**Base model:**
+**Base model:** `distilbert-base-uncased`, fine-tuned on my laptop's CPU
+(`device: cpu`, torch 2.14.1+cpu). The device is recorded in `results.json`.
 
-**Settings:** <!-- epochs, learning rate, batch size, seed -->
+**Settings:** the notebook defaults: 3 epochs, learning rate 2e-5, batch size
+16, 128 tokens per post, seed 42.
 
-**Anything I changed from the defaults, and why:**
+**Anything I changed from the defaults, and why:** nothing. I ran the defaults
+first so I have an honest starting point to diagnose in unit 6.
 
-**Split sizes:** <!-- train / val / test, and per-label counts in the test
-split. If a label had fewer than about 8 in test, say so — it explains a lot
-of next unit's variance. -->
+**Split sizes:** 154 train / 33 validation / 33 test.
+
+| Label | Train | Val | Test |
+|---|---|---|---|
+| `promo` | 82 | 18 | 18 |
+| `rec` | 38 | 8 | 8 |
+| `hype` | 17 | 4 | 4 |
+| `review` | 17 | 3 | 3 |
+
+`review` has only 3 posts in the test split and `hype` only 4, both under
+about 8, so their F1 will move a lot between seeds.
+
+**What happened:** the run finished, but the model predicts `promo` for every
+test post. Accuracy is 0.545, the same as always guessing `promo`, and `rec`,
+`hype` and `review` all have F1 0. The training loss only fell from 1.31 to
+1.12 over three epochs (30 steps), so with 154 posts and the default settings
+the model never got past the biggest label. That's the first thing to
+diagnose in unit 6.
 
 
 
@@ -276,17 +294,37 @@ of next unit's variance. -->
 
 **Moment 1**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* I couldn't find posts to read, so I asked Claude
+  (Claude Code) to read r/Afrobeats comments about Burna Boy, Davido and
+  Wizkid and write my Milestone 1 distinctions.
+- *What came back:* Reddit blocked direct downloads, so Claude pulled 26 real
+  comments through the Pullpush archive. My first distinction ("some posts
+  compare streaming or chart numbers") didn't appear in any of them.
+- *What I changed:* I dropped the streaming-numbers distinction and used three
+  that the real comments showed: says why vs. just names a song, about the
+  sound vs. about the artist, and criticises vs. only praises.
 
 **Moment 2**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* to widen the community to reach 200 posts.
+- *What came back:* Claude collected about 500 posts and found only about 80
+  fit my three labels. The rest were mostly ticket resale and
+  self-promotion. It offered four options: add a fourth label, wait for
+  r/Nigeria, switch to soccer, or collect by hand.
+- *What I changed:* I chose to add a fourth label, `promo`, because those
+  posts are a real part of what the community writes.
 
-**Pre-labelling disclosure:**
+**Pre-labelling disclosure:** Claude pre-labelled 200 of my 220 posts using my
+definitions and decision rules. I labelled the other 20 cold, on my own,
+before seeing any of Claude's labels. Claude then showed me the 200
+pre-labels in batches of 25 and I read and confirmed every one (`note` =
+`pre-labelled, checked`).
+
+**Other AI help to disclose:** Claude drafted the label definitions, decision
+rules and hard-case write-ups from my distinctions and choices, and I
+reviewed them. For `criteria.md` I chose every target number and picked each
+reason from options Claude offered. Claude also ran the training notebook for
+me.
 
 <!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
 
