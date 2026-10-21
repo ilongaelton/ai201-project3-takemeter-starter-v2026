@@ -51,63 +51,63 @@ whether you hit them:
 
 ---
 
-## 1.
+## 1. Overall accuracy
 
-<!-- Your criterion. It must name a number. -->
+Overall accuracy on the held-out test split is **at least 0.60**, on every one
+of the three seeds.
 
-
-
-**Why this target:**
-
-
-
----
-
-## 2.
-
-<!-- Your criterion. -->
-
-
-
-**Why this target:**
-
-
+**Why this target:** always guessing `promo` already scores about 0.54, so
+0.60 means the model learned something beyond the biggest label. I don't
+expect much higher because my boundaries are fuzzy: `review` / `hype` and
+`rec` / `hype` each needed an extra decision rule before I could label them
+consistently myself, so some mistakes on those lines are expected.
 
 ---
 
-## 3.
+## 2. The two big labels
 
-<!-- Your criterion. -->
+`promo` and `rec` each reach an **F1 of at least 0.70** on the test split, on
+every seed.
 
-
-
-**Why this target:**
-
-
-
----
-
-## 4.
-
-<!-- Your criterion. -->
-
-
-
-**Why this target:**
-
-
+**Why this target:** they're my two biggest labels, with 118 and 54 examples,
+so the model sees enough of them to learn them properly. That's why their bar
+is higher than for the small labels.
 
 ---
 
-## 5.
+## 3. The two small labels
 
-<!-- Your criterion. -->
+`review` and `hype` each reach an **F1 of at least 0.50** on the test split, on
+every seed.
 
+**Why this target:** they have only 23 and 25 examples, about 4 each in the
+test split, so one wrong prediction moves F1 a lot, and the target has to hold
+on all three seeds. They're also my hardest boundary: I needed a decision rule
+to separate them myself, so I expect the model to confuse them.
 
+---
 
-**Why this target:**
+## 4. Agreement with the staff labels
 
+When I label the 30 staff posts under the staff's definitions in unit 6, I
+agree with the staff label on **at least 80% of them (24 of 30)**.
 
+**Why this target:** these aren't my labels and the posts come from a running
+forum I don't know, so I'm allowing up to 6 disagreements out of 30. Below
+that, I'd take it as a sign I don't apply written rules consistently, which
+would also put my own 220 labels in doubt.
+
+---
+
+## 5. Confidence means something
+
+Of the test posts the model predicts with a confidence of **0.80 or higher**,
+**at least 80%** are correct.
+
+**Why this target:** if the model says it's 80% sure, it should be right about
+80% of the time. If confident predictions are wrong more often than that, its
+confidence score means nothing and I couldn't trust it to sort posts on its
+own.
 
 ---
 
