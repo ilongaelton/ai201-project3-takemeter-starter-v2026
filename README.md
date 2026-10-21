@@ -184,7 +184,7 @@ only argues about what the name covers, it fits no label and I left it out.
 
 **Where the posts came from:** public comments and posts from r/Afrobeats,
 pulled through the Pullpush Reddit archive (Reddit blocks direct downloads).
-I collected about 500 over two downloads and kept 221. I dropped posts in
+I collected about 500 over two downloads and kept 220. I dropped posts in
 other languages (Spanish, French, Portuguese, Arabic), off-topic posts, bot
 posts, near-duplicate playlist links, chit-chat that fits no label ("Thank you
 so much!"), posts about the subreddit itself ("we should cross-promote with
