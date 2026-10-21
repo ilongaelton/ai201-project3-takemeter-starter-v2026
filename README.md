@@ -168,6 +168,11 @@ if it's someone else's music, and `promo` if the poster is pushing their own
 music, mix, playlist or event ("This is Justizziebwoi [link]", "Follow us and
 share if you can").
 
+A fourth rule for posts about the genre as a whole: if it describes how
+Afrobeats sounds or where its sound comes from ("both have roots in West
+African traditional music … influenced by dancehall"), it's `review`. If it
+only argues about what the name covers, it fits no label and I left it out.
+
 
 
 ---
@@ -179,10 +184,12 @@ share if you can").
 
 **Where the posts came from:** public comments and posts from r/Afrobeats,
 pulled through the Pullpush Reddit archive (Reddit blocks direct downloads).
-I collected 412 and kept 191. I dropped posts in other languages (Spanish,
-French, Portuguese, Arabic), off-topic posts, bot posts, near-duplicate
-playlist links, chit-chat that fits no label ("Thank you so much!"), and two
-posts containing a personal phone number or email address.
+I collected about 500 over two downloads and kept 221. I dropped posts in
+other languages (Spanish, French, Portuguese, Arabic), off-topic posts, bot
+posts, near-duplicate playlist links, chit-chat that fits no label ("Thank you
+so much!"), posts about the subreddit itself ("we should cross-promote with
+other subs"), arguments about what the word "Afrobeats" covers, and two posts
+containing a personal phone number or email address.
 
 **How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
 Say so plainly — the disclosure is required, not penalised. -->
