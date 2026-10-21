@@ -6,3 +6,4 @@
 review: says why a song or album works or doesn't, by pointing at something you can hear in the music
 rec: names a song, album or artist without giving any reason
 hype: talks about the artist rather than the music: praise for the person, their status, their career or a prediction about them
+promo: selling, buying or promoting something: concert tickets, the poster's own music, mix or playlist, an event, or a request to collaborate

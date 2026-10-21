@@ -43,9 +43,12 @@
      sentences. -->
 
 Posts come from r/Afrobeats, a public Reddit community for Nigerian and wider
-African pop music. I narrowed it to posts about Nigeria's "Big 3" — Burna Boy,
-Davido and Wizkid. Most of what people write there is song recommendations and
-quick reactions, with the occasional full album review.
+African pop music. I started with posts about Nigeria's "Big 3" — Burna Boy,
+Davido and Wizkid — but there were only 26 of them, so I widened it to the
+whole subreddit. Most of what people write there is song recommendations,
+quick reactions, and people promoting or selling things, with the occasional
+full album review. The classifier sorts each post into `review`, `rec`, `hype`
+or `promo`.
 
 **Candidate distinctions (Milestone 1, from reading the comments):**
 
@@ -116,6 +119,23 @@ person, their status, their career or a prediction about them.
 **Example 2:**
 > 2021 will be big for Davido 🔥🔥
 
+### `promo`
+
+**Definition:** Selling, buying or promoting something: concert tickets, the
+poster's own music, mix or playlist, an event, or a request to collaborate.
+
+**Example 1:**
+> Can I please get it for $50 please
+
+**Example 2:**
+> Afrobeats One of a kind mix follow me there I have more
+
+**Why `promo` was added after Milestone 2:** when I collected posts, more than
+half of r/Afrobeats was ticket resale and self-promotion. Only about 80 of 256
+posts fit the first three labels, so without `promo` I couldn't reach 150.
+Those posts are a real part of what the community writes, so I labelled them
+rather than throwing them away.
+
 **The third Milestone 1 distinction, criticism vs. praise, did not become a
 label.** Only 2 of the 26 comments I read about the Big 3 criticised anything,
 so a `criticism` label would have had too few examples to learn from. A
@@ -143,6 +163,11 @@ feeling and no reason ("Still my favorite WizKid song and my favorite Drake
 feature! 😍") is `rec`. It's `hype` only if it's about the artist rather than a
 song.
 
+A third rule for the `rec` / `promo` line: a post that names a song is `rec`
+if it's someone else's music, and `promo` if the poster is pushing their own
+music, mix, playlist or event ("This is Justizziebwoi [link]", "Follow us and
+share if you can").
+
 
 
 ---
@@ -152,7 +177,12 @@ song.
 <!-- Where you collected from, how you labelled, your counts, and three hard
      cases. -->
 
-**Where the posts came from:**
+**Where the posts came from:** public comments and posts from r/Afrobeats,
+pulled through the Pullpush Reddit archive (Reddit blocks direct downloads).
+I collected 412 and kept 191. I dropped posts in other languages (Spanish,
+French, Portuguese, Arabic), off-topic posts, bot posts, near-duplicate
+playlist links, chit-chat that fits no label ("Thank you so much!"), and two
+posts containing a personal phone number or email address.
 
 **How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
 Say so plainly — the disclosure is required, not penalised. -->
