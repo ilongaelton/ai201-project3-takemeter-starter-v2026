@@ -73,33 +73,75 @@ quick reactions, with the occasional full album review.
      The decision rule is worth a point on its own and it's the thing most
      people leave out. Every taxonomy has a hardest boundary. Name yours. -->
 
-### `label_one`
+### `review`
 
-**Definition:**
-
-**Example 1:**
->
-
-**Example 2:**
->
-
-### `label_two`
-
-**Definition:**
+**Definition:** Says why a song or album works or doesn't, by pointing at
+something you can hear in the music: a sound, an instrument, a production
+choice, a genre influence.
 
 **Example 1:**
->
+> Burna Boy's "Ye" for me. Was going through a stressful move to a new city
+> and that track's confidence just carried me through — the horn riff alone
+> could lift a whole mood.
 
 **Example 2:**
->
+> Burna Boy has some major Hip hop influences eventhough his music is such a
+> fusion of different musical influences, check out the following: …
+
+### `rec`
+
+**Definition:** Names a song, album or artist without giving any reason,
+whether as a single title or as a list.
+
+**Example 1:**
+> An oldie but Tested Approved and Trusted by Burna Boy
+
+**Example 2:**
+> 1.wizkid-Made in lagos
+> 2.burnaboy-african Giant
+> 3.dayyo-nuts n caramel
+> 4.ckay-boyfriend
+> 5.omah lay - get layd
+
+### `hype`
+
+**Definition:** Talks about the artist rather than the music: praise for the
+person, their status, their career or a prediction about them.
+
+**Example 1:**
+> So proud of Burna boy..You are the best thing that has happened to Africa
+> and the black man musically after Bob Marley and FELA...
+> Keep the Nigerian flag flying
+
+**Example 2:**
+> 2021 will be big for Davido 🔥🔥
+
+**The third Milestone 1 distinction, criticism vs. praise, did not become a
+label.** Only 2 of the 26 comments I read about the Big 3 criticised anything,
+so a `criticism` label would have had too few examples to learn from. A
+critical post about the sound is a `review`.
 
 ### The hardest boundary
 
-**Which two labels:**
+**Which two labels:** `review` and `hype`.
+
+**The borderline post:**
+> This is actually huge. Davido spent 15 years taking Afrobeats to the world,
+> so doing a residency in Lagos to bring it back home feels right. Residencies
+> are usually a Vegas thing so seeing one in Lagos is a statement. Respect.
+
+It argues a case and gives reasons, like a `review`, but the reasons are about
+Davido's career, not about anything in his music.
 
 **The decision rule I used every time:**
-<!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even
-     if the tone is heated." -->
+If the reason is something you can hear in the music, it's `review`. If the
+reason is about the artist's career, status or achievements, it's `hype`, even
+when it's argued carefully. The post above is `hype`.
+
+A second rule for the `rec` / `hype` line: a post that names a song with only
+feeling and no reason ("Still my favorite WizKid song and my favorite Drake
+feature! 😍") is `rec`. It's `hype` only if it's about the artist rather than a
+song.
 
 
 
