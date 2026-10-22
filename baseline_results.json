@@ -1,0 +1,205 @@
+{
+  "model": "facebook/bart-large-mnli",
+  "n": 33,
+  "seed": 42,
+  "held_out": true,
+  "used_definitions": true,
+  "scores": {
+    "n": 33,
+    "accuracy": 0.6363636363636364,
+    "f1_macro": 0.36904761904761907,
+    "per_label": {
+      "hype": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666,
+        "support": 4
+      },
+      "promo": {
+        "precision": 0.7083333333333334,
+        "recall": 0.9444444444444444,
+        "f1": 0.8095238095238096,
+        "support": 18
+      },
+      "rec": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 8
+      },
+      "review": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 3
+      }
+    }
+  },
+  "predictions": [
+    {
+      "text": "\ud83c\udf34\ud83d\udd25 CHOCHO AFRO SUMMER MIX 2026 \u2014 1 Hour of Afro House, Afrobeat, Tropica...",
+      "gold": "promo",
+      "predicted": "promo"
+    },
+    {
+      "text": "An oldie but Tested Approved and Trusted by Burna Boy",
+      "gold": "rec",
+      "predicted": "hype"
+    },
+    {
+      "text": "MINA | Hip Hop, R&B, Afrobeats, Classics + | ft. Binks | San Diego, CA",
+      "gold": "promo",
+      "predicted": "promo"
+    },
+    {
+      "text": "As far as new music:\n\nNO11 - TOO HOT\n\nKidd Carder - Gobe\n\nKcee & Olamide - Idi Bad\n\nXlimkid - PLENTY WAHALA\n\nSouth2dworld - TOXIC CITY\n\nKFMD, Qing Madi, Zinoleesky - Pepper Me",
+      "gold": "rec",
+      "predicted": "promo"
+    },
+    {
+      "text": "Doing good. Can\u2019t believe how dead this sub is. If you want I\u2019m trying to start a sub with reggae, dancehall, AfroBeats, and soca music. r/TropicalTreats",
+      "gold": "promo",
+      "predicted": "promo"
+    },
+    {
+      "text": "Contribute what everyone\u2019s listening to, creating engagement and conversations.\n\nI\u2019m currently listening to For Your Body by Pa.II. \n\nhttps://open.spotify.com/track/6lCfGUFAM5dRoB8WbbQks9\n\nI think he\u2019s one of the hidden gems in afrobeats currently. Has anyone on here heard of him?",
+      "gold": "rec",
+      "predicted": "review"
+    },
+    {
+      "text": "hello yes, im still working on somethings on the back end. godaddy lost my .africa domain and we're trying to get it back. thank you for sharing!",
+      "gold": "promo",
+      "predicted": "hype"
+    },
+    {
+      "text": "He is the best does anyone have a different view?",
+      "gold": "hype",
+      "predicted": "hype"
+    },
+    {
+      "text": "Zlatan and rhyming lyrics. This is good.",
+      "gold": "review",
+      "predicted": "promo"
+    },
+    {
+      "text": "[Break Free](https://open.spotify.com/track/2pA8Kj21DAtelluGaxKBMX?si=48au0szwTACZ5s5OQL5Sgw)",
+      "gold": "rec",
+      "predicted": "promo"
+    },
+    {
+      "text": "Sorry already found some!",
+      "gold": "promo",
+      "predicted": "promo"
+    },
+    {
+      "text": "I made a gc similar on instagram",
+      "gold": "promo",
+      "predicted": "promo"
+    },
+    {
+      "text": "Still my favorite WizKid song and my favorite Drake feature! \ud83d\ude0d",
+      "gold": "rec",
+      "predicted": "promo"
+    },
+    {
+      "text": "With his good vibes as well .",
+      "gold": "hype",
+      "predicted": "hype"
+    },
+    {
+      "text": "He sings with a great sense of fulfillment.",
+      "gold": "review",
+      "predicted": "promo"
+    },
+    {
+      "text": "Afrobeats type of vibe\n\nThere is also a dubstep mix, and a house mix on here follow me and share. I follow back and maybe one day might book a show near you!",
+      "gold": "promo",
+      "predicted": "promo"
+    },
+    {
+      "text": "Fireboy DML \u00d7 Aya Nakamura Afrobeat Instrumental 2026 'FREEDOM'",
+      "gold": "promo",
+      "predicted": "promo"
+    },
+    {
+      "text": "STATE OF MIND by Dj Tunez X Wizkid",
+      "gold": "rec",
+      "predicted": "hype"
+    },
+    {
+      "text": "Post from five not beats\n\nAmapiano amacombo dance hitmaker mdugan shares new amapiano vibes playlist",
+      "gold": "promo",
+      "predicted": "promo"
+    },
+    {
+      "text": "The rhythm of this track is so lovely",
+      "gold": "review",
+      "predicted": "promo"
+    },
+    {
+      "text": "This is actually huge. Davido spent 15 years taking Afrobeats to the world, so doing a residency in Lagos to bring it back home feels right. Residencies are usually a Vegas thing so seeing one in Lagos is a statement. Respect.",
+      "gold": "hype",
+      "predicted": "hype"
+    },
+    {
+      "text": "Yes here is the link https://youtu.be/qTaN6g_aJnE?si=yskW6WJKMeMDMA4O",
+      "gold": "promo",
+      "predicted": "promo"
+    },
+    {
+      "text": "Afro Utah Festival is coming back to Salt Lake City \u2014 September 5,2026",
+      "gold": "promo",
+      "predicted": "promo"
+    },
+    {
+      "text": "Afrobeat Instrumental 2026 x Rema x Tyla type beat - \"Lagos\"",
+      "gold": "promo",
+      "predicted": "promo"
+    },
+    {
+      "text": "Would you be willing to do 150?",
+      "gold": "promo",
+      "predicted": "promo"
+    },
+    {
+      "text": "Fola will definitely raise the swag \ud83d\ude0e",
+      "gold": "hype",
+      "predicted": "hype"
+    },
+    {
+      "text": "https://open.spotify.com/playlist/4aUkEgBuyMMMKiZWqzX6Gq?si=SSGknyu3So6FviCi7JJjgg&utm_source=copy-link&pi=1Go5ElJvR7mTy&sci=spotify%3Acard-config%3A0WGive98x51ldRTuxxqlAr Follow us and share if you can. Thank you",
+      "gold": "promo",
+      "predicted": "promo"
+    },
+    {
+      "text": "$95 is still too high for me",
+      "gold": "promo",
+      "predicted": "promo"
+    },
+    {
+      "text": "1.wizkid-Made in lagos\n2.burnaboy-african Giant\n3.dayyo-nuts n caramel\n4.ckay-boyfriend \n5.omah lay - get layd",
+      "gold": "rec",
+      "predicted": "hype"
+    },
+    {
+      "text": "Can I get it for $200 pleaseeee it\u2019s my birthday weekend \ud83d\ude29",
+      "gold": "promo",
+      "predicted": "promo"
+    },
+    {
+      "text": "This one a hidden gem \ud83e\udd0c\ud83c\udffc\n https://open.spotify.com/track/5AzM1xi9wIFUBwuPbEMwiu?si=CtcEwfLuTmuBnXEIlP1m5A",
+      "gold": "rec",
+      "predicted": "promo"
+    },
+    {
+      "text": "Sorry, its already been sold",
+      "gold": "promo",
+      "predicted": "promo"
+    },
+    {
+      "text": "Just made an Afrobeats x Amapiano mix for those that love the genre. Enjoy [https://www.youtube.com/watch?v=9JvU5NeiJag](https://www.youtube.com/watch?v=9JvU5NeiJag)",
+      "gold": "promo",
+      "predicted": "promo"
+    }
+  ]
+}
